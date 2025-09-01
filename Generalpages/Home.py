@@ -117,7 +117,7 @@ st.markdown("""
 
 
 # ========== SIDEBAR NAVIGATION ==========
-About = st.Page(page="pages/about.py", title="About", icon="🅰️")
+About = st.Page(page="pages/About.py", title="About", icon="🅰️")
 Analysis = st.Page(page="pages/Analysis.py", title="Analysis", icon="📈")
 Visualization = st.Page(page="pages/Visualization.py", title="Visualization", icon="Ⓜ️")
 Contact = st.Page(page="pages/Contact.py", title="Contact", icon="🏦")
