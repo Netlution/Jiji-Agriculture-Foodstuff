@@ -3,7 +3,7 @@ import pandas as pd
 
 with st.expander("See explanation"):
     # df = pd.read_csv(r"C:\Users\user\Desktop\Web scrapping project\jijipage5_data.csv")
-    df = pd.read_csv(".\.\data/jijipage5_data.csv")
+    df = pd.read_csv("data/jijipage5_data.csv")
 
     st.dataframe(df.head())
 
