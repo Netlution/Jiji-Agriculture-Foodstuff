@@ -40,6 +40,6 @@ Scraping its data allows us to:
 This project demonstrates how **web scraping and data analysis** can bridge the gap between **raw market data** and **strategic decision-making**, empowering stakeholders with reliable insights into Nigeria’s agricultural e-commerce landscape.  
 """)
 
-st.image("././static/why_choose_agriculture_and_foodstuff.jpg", caption="Why choose agriculture and foodstuff")
+# st.image("././static/why_choose_agriculture_and_foodstuff.jpg", caption="Why choose agriculture and foodstuff")
 
 

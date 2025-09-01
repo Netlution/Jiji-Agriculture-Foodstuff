@@ -33,7 +33,7 @@ st.markdown("""
     This gives a clear overview of pricing behavior in the agricultural and foodstuff sector on Jiji.ng, helping to identify trends, outliers, and possible opportunities in the market.  
 """)
 
-st.image("././static/intro_agriculture_and_foodstuff.jpg", caption="intro_agriculture_and_foodstuff")
+# st.image("././static/intro_agriculture_and_foodstuff.jpg", caption="intro_agriculture_and_foodstuff")
 
 # Table Analysis
 st.subheader("Table analysis")
