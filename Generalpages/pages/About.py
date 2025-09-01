@@ -15,7 +15,8 @@ Our focus is on providing **valuable insights** into the online marketplace by e
 We specialize in **web data extraction, cleaning, and analysis**, turning unstructured online information into actionable intelligence. By applying these methods to the Agriculture and Foodstuff category on [Jiji.ng](https://jiji.ng/agriculture-and-foodstuff), we offer a clearer understanding of how agricultural products are priced and distributed across different regions in Nigeria.  
 """)
 
-st.image("././static/project_overview.jpg", caption="Agriculture is beautiful")
+# st.image("././static/project_overview.jpg", caption="Agriculture is beautiful")
+st.image("static/project_overview.jpg", caption="Agriculture is beautiful")
 
 st.markdown("""
 ---
