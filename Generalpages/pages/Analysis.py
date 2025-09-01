@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 # Load Data
 with st.expander("See Table below"):
     # df = pd.read_csv(r"C:\Users\user\Desktop\Web scrapping project\jijipage5_data.csv")
-    df = pd.read_csv("././data/jijipage5_data.csv")
+    df = pd.read_csv(".\.\data/jijipage5_data.csv")
 
     
     # Reset index and start from 1
