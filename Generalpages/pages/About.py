@@ -16,7 +16,7 @@ We specialize in **web data extraction, cleaning, and analysis**, turning unstru
 """)
 
 # st.image("././static/project_overview.jpg", caption="Agriculture is beautiful")
-st.image("static/project_overview.jpg", caption="Agriculture is beautiful")
+# st.image("static/project_overview.jpg", caption="Agriculture is beautiful")
 
 st.markdown("""
 ---
