@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px  
 from pathlib import Path
+from style import set_black_background
+
+set_black_background() 
 
 
 # use full screen width

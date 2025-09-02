@@ -65,6 +65,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import base64
+from style import set_black_background
+
+set_black_background() 
 
 # ========== CUSTOM CSS ==========
 sidebar_bg = """

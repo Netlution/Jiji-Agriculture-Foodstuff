@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import mysql.connector
 from pathlib import Path
+from style import set_black_background
+
+set_black_background() 
 
 # Title
 st.title("Message Us")

@@ -1,5 +1,8 @@
 import streamlit as st
 from pathlib import Path
+from style import set_black_background
+
+set_black_background() 
 
 
 # use full screen width
