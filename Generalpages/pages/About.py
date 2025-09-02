@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 
 
 # use full screen width
@@ -17,6 +18,15 @@ We specialize in **web data extraction, cleaning, and analysis**, turning unstru
 
 # st.image("././static/project_overview.jpg", caption="Agriculture is beautiful")
 # st.image("static/project_overview.jpg", caption="Agriculture is beautiful")
+
+# Base directory (Generalpages)
+BASE_DIR = Path(__file__).resolve().parent.parent  
+
+# Point to static folder
+STATIC_DIR = BASE_DIR / "static"
+
+# Images
+st.image(STATIC_DIR / "project_overview.jpg", caption="Agriculture is beautiful")
 
 st.markdown("""
 ---
@@ -41,5 +51,15 @@ This project demonstrates how **web scraping and data analysis** can bridge the 
 """)
 
 # st.image("././static/why_choose_agriculture_and_foodstuff.jpg", caption="Why choose agriculture and foodstuff")
+
+# Base directory (Generalpages)
+BASE_DIR = Path(__file__).resolve().parent.parent  
+
+# Point to static folder
+STATIC_DIR = BASE_DIR / "static"
+
+# Images
+st.image(STATIC_DIR / "why_choose_agriculture_and_foodstuff.jpg", caption="Why choose agriculture and foodstuff")
+
 
 

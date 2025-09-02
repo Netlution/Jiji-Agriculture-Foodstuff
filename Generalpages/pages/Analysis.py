@@ -52,6 +52,15 @@ st.markdown("""
 
 # st.image("././static/intro_agriculture_and_foodstuff.jpg", caption="intro_agriculture_and_foodstuff")
 
+# Base directory (Generalpages)
+BASE_DIR = Path(__file__).resolve().parent.parent  
+
+# Point to static folder
+STATIC_DIR = BASE_DIR / "static"
+
+# Images
+st.image(STATIC_DIR / "intro_agriculture_and_foodstuff.jpg", caption="Intro agriculture and foodstuff")
+
 # Table Analysis
 st.subheader("Table analysis")
 
