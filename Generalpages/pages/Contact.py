@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import mysql.connector
+from pathlib import Path
 
 # Title
 st.title("Message Us")
@@ -10,15 +11,30 @@ st.title("Message Us")
 st.set_page_config(layout="wide")  
 
 # Load data
-with st.expander("See Table below"):
-    # df = pd.read_csv(r"C:\Users\user\Desktop\Web scrapping project\jijipage5_data.csv")
-    df = pd.read_csv("data/jijipage5_data.csv")
+# with st.expander("See Table below"):
+#     # df = pd.read_csv(r"C:\Users\user\Desktop\Web scrapping project\jijipage5_data.csv")
+#     df = pd.read_csv("data/jijipage5_data.csv")
 
     
+#     # Reset index and start from 1
+#     df_reset = df.head(10).reset_index(drop=True)
+#     df_reset.index = df_reset.index + 1
+    
+#     st.table(df_reset)
+
+# Step 1: go up ONE level from Analysis.py → Generalpages/
+BASE_DIR = Path(__file__).resolve().parent.parent  
+
+# Step 2: point to the Data folder
+DATA_PATH = BASE_DIR / "Data" / "jijipage5_data.csv"
+
+with st.expander("See Table below"):
+    df = pd.read_csv(DATA_PATH)
+
     # Reset index and start from 1
     df_reset = df.head(10).reset_index(drop=True)
     df_reset.index = df_reset.index + 1
-    
+
     st.table(df_reset)
 
 # MySQL connection
