@@ -29,7 +29,7 @@ st.set_page_config(layout="wide")
 BASE_DIR = Path(__file__).resolve().parent.parent  
 
 # Step 2: point to the Data folder
-DATA_PATH = BASE_DIR / "Data" / "jijipage5_data.csv"
+DATA_PATH = BASE_DIR / "Data" / "Jiji-agriculture-foodstuff.csv"
 
 with st.expander("See Table below"):
     df = pd.read_csv(DATA_PATH)
