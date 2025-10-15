@@ -53,3 +53,18 @@ Jiji-Agriculture-Foodstuff/
 ├── Data/                  # Scraped dataset
 └── static/                # Images & assets
 
+# 🛠️ Tech Stack
+
+<details> <summary>Click to expand</summary>
+🚀Frontend: Streamlit
+🚀Data Processing: Pandas, NumPy
+🚀Web Scraping: BeautifulSoup, Requests
+🚀Visualization: Plotly
+🚀Data Source: Jiji.ng Agriculture & Foodstuff category
+</details>
+
+# 📈 Analysis Sections
+📁Table Analysis: Summary statistics and outlier detection
+📁Price Analysis: Product and location-based grouping
+📁Visualizations: Interactive charts and graphs
+📁Market Insights: Regional comparisons and trends
