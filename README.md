@@ -40,3 +40,16 @@ pip install -r requirements.txt
 
 # Run application
 streamlit run app.py
+
+# 📁 Project Structure
+
+Jiji-Agriculture-Foodstuff/
+├── app.py                 # Main application
+├── pages/                 # App sections
+│   ├── About.py           # Project overview
+│   ├── Analysis.py        # Data insights
+│   ├── Visualization.py   # Charts & graphs
+│   └── Contact.py         # Contact form
+├── Data/                  # Scraped dataset
+└── static/                # Images & assets
+
